@@ -7,6 +7,10 @@ group :production do
   end
   group :agroup, :development, optional: true do
     gem 'devgemfiledep'
+
+    group :randogroup do
+      gem 'randogemfiledep'
+    end
   end
 end
 
