@@ -69,4 +69,3 @@ def on_heroku
     platform :ruby_18, &proc
   end
 end
-
