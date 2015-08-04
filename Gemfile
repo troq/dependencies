@@ -16,6 +16,7 @@ end
 
 gem 'testgemfiledep2', :group => :test
 gem 'testgemfiledep3', groups: [:randomgroup, :development]
+gem 'randogemfiledep2', :groups => [:randomgroup]
 
 group :development do
   gem 'developmentgemfiledep'
