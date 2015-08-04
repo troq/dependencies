@@ -52,6 +52,12 @@ group :test do
 
     group :production do
       gem 'ifproduction'
+
+      if true
+        gem 'ifproductionif'
+      end
+
+      gem 'ifproduction2'
     end
   end
 end
